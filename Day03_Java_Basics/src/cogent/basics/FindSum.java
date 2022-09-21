@@ -27,5 +27,7 @@ public class FindSum {
 		System.out.println("Sum of Even: " + sumEven);
 		System.out.println("------------------------");
 		System.out.println("Sum of Odd: " + sumOdd);
+		System.out.println("------------------------");
+		System.out.println("Total Sum: " + (sumEven + sumOdd));
 	}
 }
