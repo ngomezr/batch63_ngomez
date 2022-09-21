@@ -35,8 +35,11 @@ public class SwapValues {
 		
 		System.out.println("D: " + d);
 
+		c = c + d;
 		
+		d = c - d;
 		
+		c = c - d;
 		
 		System.out.println("---After swap---");
 		
