@@ -31,5 +31,4 @@ public class Sample {
 		A a3 = new A(); a3.show();
 		
 	}
-
 }

@@ -1,3 +1,4 @@
+package com.cogent.loop;
 import java.util.Scanner;
 
 /**
