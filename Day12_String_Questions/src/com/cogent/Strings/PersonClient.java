@@ -33,8 +33,6 @@ public class PersonClient {
 			} else if(name.charAt(0) == 'J' || name.charAt(0) == 'j') {
 				System.out.println(p[i]);
 			}
-		}
-		
-			
+		}	
 	}
 }
