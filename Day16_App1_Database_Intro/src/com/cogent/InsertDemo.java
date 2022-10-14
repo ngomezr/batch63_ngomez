@@ -4,8 +4,6 @@ import java.sql.PreparedStatement;
 import java.sql.Connection;
 import java.sql.SQLException;
 
-import java.sql.ResultSet;
-import java.sql.Statement;
 import java.util.Scanner;
 /**
  * 
@@ -43,6 +41,7 @@ public class InsertDemo {
 			pst.setString(3, email);
 //			pst.executeQuery();
 			int i = pst.executeUpdate();
+			
 			System.out.println("Records are inserted -- " + i);
 			
 			pst.close(); con.close();	
