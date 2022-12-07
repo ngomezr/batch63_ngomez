@@ -15,6 +15,9 @@ import java.io.IOException;
  * 
  */
 public class FileInputStreamDemo2 {
+	// Buffer reader
+	// LOok into it
+	
 	public static void main(String[] args) {
 		File file = new File("data.txt");
 	
